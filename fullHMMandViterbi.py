@@ -74,7 +74,10 @@ for sentence in words:
 
 result = viterbi(wordIdx, transitionMatrix, observationMatrix, initialStateMatrix)
 incorrect = 0
+produced = []
 for idx in range(0, len(expected)):
+    produced.append(setOfSpeech[result[idx]])
     if expected[idx] != result[idx]:
         incorrect += 1
+print(produced)
 print((len(expected) - incorrect) / len(expected))

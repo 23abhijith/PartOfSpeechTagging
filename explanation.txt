@@ -1,0 +1,13 @@
+So my viterbi algorithm produced the following part of speech classifications:
+['.', 'X', 'ADP', 'ADJ', 'NOUN', 'VERB', 'VERB', 'DET', 'NOUN', 'ADP', 'VERB', 'VERB', '.', 'DET',
+'NOUN', 'NOUN', 'VERB', 'DET', 'NOUN', 'NOUN', 'NOUN', 'ADP', 'DET', 'ADJ', 'NOUN', 'VERB', 'VERB',
+'ADP', 'NUM', 'NOUN', '.', 'PRON', 'VERB', 'DET', 'ADJ', 'NOUN', 'ADP', 'DET', 'NOUN', 'ADP', 'DET',
+'ADJ', 'NOUN', 'CONJ', 'DET', 'NOUN', '.']
+
+Compared to the actual of:
+['DET', 'VERB', 'ADP', 'ADJ', 'NOUN', 'VERB', 'VERB', 'DET', 'NOUN', 'PRT', 'VERB', 'VERB', '.', 'DET',
+'ADJ', 'NOUN', 'VERB', 'DET', 'ADJ', 'ADJ', 'NOUN', 'ADP', 'DET', 'ADJ', 'NOUN', 'VERB', 'VERB', 'ADP',
+'NUM', 'DET', '.', 'PRON', 'VERB', 'DET', 'ADJ', 'NOUN', 'ADP', 'DET', 'NOUN', 'ADP', 'DET', 'ADJ',
+'NOUN', 'CONJ', 'DET', 'NOUN', '.']
+
+This resulted in an overall accuracy of around 85% for my algorithm
